@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>EL MEJOR JUGADOR</title>
+</head>
+<body>
+<h1>El Mejor Jugador Actual</h1>
+<h2>Tome un poco de su tiempo y denos su opinion. GRACIAS</h2>
+    
+</body>
+<style>
+    body {
+        background-color: rgb(128, 128, 128);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    h1 {
+        font-size: 39px;
+        text-align: center;
+    }
+    h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .full-card {
+        text-align:left;
+        margin: 100px;
+        margin-left:600px;
+        width: 650px;
+        height: 1000px;
+        border-radius: 5px;
+        border: 5px solid black;
+        background-color: rgba(0, 47, 255, 0.678);
+        padding: 40px 20px 30px 20px;
+    
+    }
+    .box {
+        width: 500px;
+        height: 40px;
+    }
+ .box1{
+width: 500px;
+height: 40px;
+background-color: forestgreen;
+}
+</style>
+<form action="" class="full-card">
+    <label for="name"><strong>Nombre</strong><br><input type="text" class="box" id="name" required placeholder="introdusca nombre"></label><br>
+    <br>
+    <label for="email">Correo<br><input type="email" class="box" id="email" required placeholder="introdusca correo"></label><br><br>
+    <label for="edad">Edad<br><input type="text" class="box" id="edad" placeholder="introdusca edad (opcional)"></label><br><br>
+    <label for="ocupacion">Ocupacion<br><input type="text" class="box" list="ocupacion" required placeholder="Ocupacion"></label><br>
+    <datalist id="ocupacion">
+        <option value="Estudiante">Estudiante</option>
+        <option value="profesionista">profesionista</option>
+        <option value="obrero">obrero</option>
+        <option value="hogar">hogar</option>
+        <option value="prefiero no contestar">prefiero no contestar</option>
+        
+    </datalist>
+    <br>
+    <p>Cual es tu Jugador Favorito</p>
+    <label for="Zidane"><input type="radio" id="Zidane" name="Cual es tu Jugador Favorito" value="Zidane">Zidane</label><br>
+        <label for="Messi"><input type="radio" id="Messi" name="Cual es tu Jugador Favorito" value="Messi">Messi</label><br>
+    <label for="Cristiano Ronaldo"><input type="radio" id="Cristiano Ronaldo" name="Cual es tu Jugador Favorito" value="Cristiano Ronaldo">Zidane</label><br>
+<label for="Otro"><input type="radio" id="Otro" name="Cual es tu Jugador Favorito" value="Otro">Otro</label><br>
+<label>Especificar<br><input type="text"  class="box" name="indoor-outdoor" placeholder="Nombre" ></label><br>
+<br>
+    <label for="Remate de Cabeza">Habilidades<br><input  type="checkbox" id="Remate de Cabeza" name="Habilidades" value="Remate de Cabeza">Remate de Cabeza</label><br>
+    <label for="Dribling"><input type="checkbox" id="Dribling" name="Habilidades" value="Dribling">Dribling</label><br>
+        <label for="Vision de Campo"><input type="checkbox" id="Vision de Campo" name="Habilidades" value="Vision de Campo">Vision de Campo</label><br>
+                <label for="Liderazgo"><input type="checkbox" id="Liderazgo" name="Habilidades"
+                        value="Liderazgo">Liderazgo</label><br><br>
+                        Algun comentario o sugerencia <br>
+                        <textarea name="sugerencia"cols="60" rows="7"></textarea><br><br>
+     <button type="submit" class="box1">Enviar</button>
+
+
+
+    
+
+
+
+
+
+
+
+
+</form>
+<footer></footer>
+</html>
