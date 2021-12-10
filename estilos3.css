@@ -41,10 +41,12 @@ a
     text-decoration: none;
     color: green;
 }
-div ul
 
+ul li ul
 {
     display: none;
+    position: absolute;
+    
 }
 #box-container 
 {
