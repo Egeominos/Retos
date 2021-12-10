@@ -5,7 +5,7 @@ header
     top: 0;
     width: 100%;
     padding: 15px 20px;
-    background-color:;
+    background-color: peru;
     font-size: 20px;
     color: #FFFFFF;
 }
@@ -16,32 +16,29 @@ h1
     color: green;
 }
 
-
-#navbar li a 
+#navbar 
 {
-    font-size: 20px;
+    float: right;
 }
 
-#navbar li a:hover
+#navbar ul
 
 {
-    background-color:violet;
+    display: flex;
+    margin-right: 200px;
+    font-size: 25px;
 
 }
 
-#navbar  li ul
-{
-    display: none;
-    position: absolute;
-    min-width: 140px;
-    
-}
-
-#navbar li:hover > ul
+#navbar li
 
 {
-    display: block;
+    display: inline;
+    margin-right: 100px;
+
 }
+
+
 
 #box-container 
 {
@@ -49,9 +46,7 @@ h1
     height: 1200px;
     display: flex;
     background-color: yellow;
-   
-    
-    
+      
 }
 
 #box-1 {
