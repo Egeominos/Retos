@@ -1,0 +1,108 @@
+header
+ {
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px 20px;
+    background-color:;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+h1
+{
+
+    text-align: center;
+    color: green;
+}
+
+
+#navbar li a 
+{
+    font-size: 20px;
+}
+
+#navbar li a:hover
+
+{
+    background-color:violet;
+
+}
+
+#navbar  li ul
+{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    
+}
+
+#navbar li:hover > ul
+
+{
+    display: block;
+}
+
+#box-container 
+{
+    text-align: center;
+    height: 1200px;
+    display: flex;
+    background-color: yellow;
+   
+    
+    
+}
+
+#box-1 {
+
+    background-color: coral;
+    width: 15%;
+    height: 50%;
+    font-size: 40px;
+    border: black 5px solid;
+    margin-right: 1em;
+    margin-top: 600px;
+    margin-left: 500px;
+
+    
+    
+      }
+
+#box-2 {
+
+    background-color: coral;
+    width: 15%;
+    height: 50%;
+    font-size: 40px;
+    border: black 5px solid;
+    margin-right: 1em;
+    margin-top: 600px;
+    
+    
+}
+
+#box-3 {
+
+    background-color: coral;
+    width: 15%;
+    height: 50%;
+    font-size: 40px;
+    border: black 5px solid;
+    margin-right: 1em;
+    margin-top: 600px;
+    
+    
+
+}
+.Boton {
+
+    margin-top: 200px;
+    background-color:fuchsia;
+    border: blueviolet 1px solid;
+}
+.button {
+    margin-top: 200px;
+    background-color:fuchsia;
+    
+}
