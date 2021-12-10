@@ -20,21 +20,19 @@ h1
 ul 
 {
     float: right;
-    padding: 10px;
 }
 
 ul li
 {
     display: inline;
-    margin-right: 15em;
+    margin-right: 17em;
     font-size: 20px;
-
 }
 
 ul li:hover 
 
 {
-    color: red;
+    background-color: red;
 }
 
 a 
@@ -42,6 +40,11 @@ a
 
     text-decoration: none;
     color: green;
+}
+div ul
+
+{
+    display: none;
 }
 #box-container 
 {
