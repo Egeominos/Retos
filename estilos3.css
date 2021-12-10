@@ -46,8 +46,16 @@ ul li ul
 {
     display: none;
     position: absolute;
+    max-width: 140px;
     
 }
+
+ul li:hover > ul
+{
+    display: block;
+}
+
+
 #box-container 
 {
     text-align: center;
