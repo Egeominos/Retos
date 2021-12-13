@@ -20,16 +20,17 @@ h1
 ul 
 {
     float: right;
+    list-style: none;
 }
 
-ul li
+li
 {
     display: inline;
-    margin-right: 17em;
+    margin-right: 5em;
     font-size: 20px;
 }
 
-ul li:hover 
+li:hover 
 
 {
     background-color: red;
@@ -42,7 +43,7 @@ a
     color: green;
 }
 
-ul li ul
+ul li ul 
 {
     display: none;
     position: absolute;
@@ -50,10 +51,12 @@ ul li ul
     
 }
 
-ul li:hover > ul
+li:hover > ul
 {
     display: block;
+
 }
+ 
 
 
 #box-container 
