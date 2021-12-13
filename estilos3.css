@@ -23,27 +23,27 @@ ul
     list-style: none;
 }
 
-li
+ul li
 {
     display: inline;
     margin-right: 5em;
     font-size: 20px;
 }
 
-li:hover 
+ul li:hover
 
 {
     background-color: red;
 }
 
-a 
+a
 {
 
     text-decoration: none;
     color: green;
 }
 
-ul li ul 
+ul li ul
 {
     display: none;
     position: absolute;
@@ -51,12 +51,11 @@ ul li ul
     
 }
 
-li:hover > ul
+ul li:hover > ul
 {
     display: block;
 
 }
- 
 
 
 #box-container 
@@ -110,12 +109,6 @@ li:hover > ul
     
     
 
-}
-.Boton {
-
-    margin-top: 200px;
-    background-color:fuchsia;
-    border: blueviolet 1px solid;
 }
 .button {
     margin-top: 200px;
