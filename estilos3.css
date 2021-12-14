@@ -26,7 +26,7 @@ ul
 ul li
 {
     display: inline;
-    margin: 0 5em 0 -4em;
+    margin: 6em;
     font-size: 20px;
 }
 
@@ -37,24 +37,11 @@ ul li:hover
 }
 
 a
+
 {
 
     text-decoration: none;
     color: green;
-}
-
-ul li ul
-{
-    display: none;
-    position: absolute;
-    max-width: 140px;
-    
-}
-
-ul li:hover > ul
-{
-    display: block;
-
 }
 
 
