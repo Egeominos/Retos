@@ -59,24 +59,28 @@ a
 
 
 
+
+
 #box-container 
+
 {
-    text-align: center;
-    height: 1400px;
     display: flex;
+    text-align:center;
+    height: 1500px;
     background-color: yellow;
       
 }
+
 
 #box-1 {
 
     background-color: coral;
     width: 15%;
-    height: 50%;
-    font-size: 40px;
+    height: 30%;
+    font-size: 35px;
     border: black 5px solid;
     margin-right: 1em;
-    margin-top: 600px;
+    margin-top: 800px;
     margin-left: 500px;
 
     
@@ -87,11 +91,11 @@ a
 
     background-color: coral;
     width: 15%;
-    height: 50%;
-    font-size: 40px;
+    height: 30%;
+    font-size: 35px;
     border: black 5px solid;
     margin-right: 1em;
-    margin-top: 600px;
+    margin-top: 800px;
     
     
 }
@@ -100,17 +104,26 @@ a
 
     background-color: coral;
     width: 15%;
-    height: 50%;
-    font-size: 40px;
+    height: 30%;
+    font-size: 35px;
     border: black 5px solid;
     margin-right: 1em;
-    margin-top: 600px;
+    margin-top: 800px;
     
     
 
 }
 .button {
-    margin-top: 50px;
+    
+    margin-top: auto;
     background-color:fuchsia;
     
+}
+
+footer
+{
+    text-align: center;
+    width: auto;
+    padding: 30px;
+    background-color: coral;
 }
