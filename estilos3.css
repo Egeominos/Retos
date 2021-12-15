@@ -24,31 +24,6 @@ span
     margin-left: 25px;
 }
 
-<<<<<<< HEAD
-#navbar 
-{
-    float: right;
-}
-
-#navbar ul
-
-{
-    display: flex;
-    margin-right: 200px;
-    font-size: 25px;
-
-}
-
-#navbar li
-
-{
-    display: inline;
-    margin-right: 100px;
-
-}
-
-
-=======
 ul 
 {
     float: right;
@@ -85,7 +60,6 @@ a
 
    
 }
->>>>>>> rol
 
 
 
