@@ -5,17 +5,26 @@ header
     top: 0;
     width: 100%;
     padding: 15px 20px;
+<<<<<<< HEAD
     background-color: peru;
+=======
+>>>>>>> rol
     font-size: 20px;
-    color: #FFFFFF;
-}
-h1
+    
+
+    }
+
+span
+
 {
 
-    text-align: center;
+    text-align: left;
     color: green;
+    font-size: 50px;
+    margin-left: 25px;
 }
 
+<<<<<<< HEAD
 #navbar 
 {
     float: right;
@@ -37,6 +46,46 @@ h1
     margin-right: 100px;
 
 }
+
+
+=======
+ul 
+{
+    float: right;
+    list-style: none;
+}
+
+ul li
+{
+    display: inline;
+    margin: 6em;
+    font-size: 20px;
+}
+
+ul li:hover
+
+{
+    background-color: rgba(255, 30, 0, 0.911);
+}
+
+a
+
+{
+
+    text-decoration: none;
+    color: green;
+}
+
+#logo
+
+{
+   
+    width: 100px;
+    vertical-align: middle;
+
+   
+}
+>>>>>>> rol
 
 
 
@@ -90,14 +139,8 @@ h1
     
 
 }
-.Boton {
-
-    margin-top: 200px;
-    background-color:fuchsia;
-    border: blueviolet 1px solid;
-}
 .button {
-    margin-top: 200px;
+    margin-top: 50px;
     background-color:fuchsia;
     
 }
