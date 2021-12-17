@@ -77,18 +77,19 @@ h2
 {
     height: 20px;
     width: 300px;
-    margin-left: 478px;
+    margin-left: 490px;
 }
 
 .des {
 
     font-size: 20px;
-    margin-left: 478px;
+    margin-left: 490px;
+    font-weight: 700;
 }
 
 .video {
 
-    margin: 200px 0 0 478px;
+    margin: 200px 0 0 490px;
 }
 
 #box-container 
@@ -152,9 +153,12 @@ h2
 
 footer
 {
+    font-family: cursive;
     text-align: right;
-    margin-left: 900px;
+    font-size: 15px;
+    font-weight: 600;
     
+
     
 }
 
