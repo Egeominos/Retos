@@ -3,17 +3,22 @@ body{
     background-color: blanchedalmond;
 }
 
+h1 {
+    font-size: 50px;
+    margin-bottom: 50px;
+    margin-top: auto;
+}
 h2 {
-    text-align: center;
-    margin-right: 225px;
+    text-align: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 800;
+    
 
 
 }
 
 p {
-    text-align: center;
+    text-align: left;
 }
 
 
@@ -21,11 +26,21 @@ p {
 
     display: grid;
     position: fixed;
-    width: 25%;
+    width: 15%;
     height: 70%;
     font-size: 30px;
     font-family: sans-serif;
-
-   
+    margin-top: 50px;
     
+    
+}
+
+.fullcard{
+    width: 70%;
+    border-left:3px black solid;
+    margin-left:300px;
+    padding: 10px 0 0 20px;
+    position: absolute;
+
+
 }
