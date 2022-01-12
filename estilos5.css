@@ -1,0 +1,19 @@
+html {
+
+    box-sizing: border-box;
+    font-size: 70%;
+    scroll-behavior: smooth;
+}
+
+h1 {
+
+    font-size: 40px;
+    text-align: center;
+    color: orange;
+}
+
+p {
+
+    text-align: center;
+    color:brown;
+}
