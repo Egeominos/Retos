@@ -10,8 +10,7 @@ a {
 
 img {
 
-    max-width: 30%;
-    display: block;
+    max-width: 40%;
 
 }
 
@@ -52,6 +51,7 @@ img {
       .nav-list a:hover {
         background: rgb(98, 0, 255);
       }
+
 html {
 
     box-sizing: border-box;
@@ -64,20 +64,52 @@ h1 {
     font-size: 40px;
     text-align: center;
     color: orange;
-    margin-top: 7rem;
+    margin-top: 15rem;
 }
 
 h2 {
 
     color: white;
+    font-size: 25px;
 }
 
 p {
 
     text-align: center;
     color:brown;
+    font-size: 25px;
 }
 
+
+
+.welcome-section {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    background-color:gray;
+    background-image: linear-gradient();
+}
+
+.projects-section{
+
+    text-align: center;
+    padding: 10rem 2rem;
+    background: rgb(79, 6, 250);
+}
+
+
+.projects-grid {
+
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-gap: 15rem 10rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
 .contact-section {
 
     display: flex;
@@ -85,8 +117,8 @@ p {
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 100%;
-  height: 70px;
+  width: 97%;
+  height: 98px;
   padding: 0 2rem;
   background: gray;
 
@@ -95,7 +127,7 @@ p {
 
 .contact-section-header {
 
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .contact-details {
