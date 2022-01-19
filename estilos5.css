@@ -10,7 +10,8 @@ a {
 
 img {
 
-    max-width: 40%;
+    max-width: 80%;
+    display: block;
 
 }
 
