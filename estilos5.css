@@ -72,6 +72,7 @@ h2 {
 
     color: white;
     font-size: 25px;
+    
 }
 
 p {
@@ -87,11 +88,12 @@ p {
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:center;
     width: 100%;
     background-color:gray;
-    background-image: linear-gradient();
+    
 }
+
 
 .projects-section{
 
